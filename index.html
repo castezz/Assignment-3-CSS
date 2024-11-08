@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piazza Vainilla - Colombian Candy</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="images/piazza-logo.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- main section -->
+    <section>
+      
+      <!-- product name -->
+      <h1>
+        <span style="color: brown">PIAZZA</span
+        ><span style="color: rgb(43, 43, 190)"> VAINILLA</span>
+      </h1>
+
+      <!-- information about (Colombina) with the link to their website -->
+      <h3>
+        <strong>Produced by
+        <a href="https://colombina.com/co-es/"><span style="color: rgb(16, 1, 155)"><strong>Colombina</strong></a></span
+        > S.A</strong>
+      </h3>
+
+      <!-- background image for the banner section -->
+      <div
+        class="products__banner"
+        style="background-image: url(images/vainilla-banner.png)"
+      >
+
+        <!-- image of the Piazza logo -->
+        <div class="container">
+          <div class="product__branch-img">
+            <img
+              class="product__brand-img"
+              src="https://colombina.com/uploads/brands/1595821098PIAZZA.png"
+              alt="Piazza-logo"
+              height="200px"
+              width="200px"
+            />
+          </div>
+        </div>
+
+        <!-- main product image of Piazza Vainilla -->
+        <div class="container">
+          <img
+            class="product__brand-img"
+            id="product_image"
+            src="images/piazza-vainilla-5.png"
+            alt="Piazza-vainilla-"
+            height="200px"
+            width="200px"
+          />
+        </div>
+
+        <div class="container">
+          <img
+            id="product_image-2"
+            src="images/pizza-vainilla-behind.png"
+            alt="Piazza-vainilla-behind"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- decorative lines section created as SVG, that separates the banner and content -->
+    <div>
+      <svg width="100%" height="40">
+        <line x1="0" y1="40" x2="100%" y2="40" stroke="brown" stroke-width="14"/>
+      </svg>
+    </div>
+    <!-- 2nd line -->
+    <div>
+      <svg width="100%" height="40">
+        <line x1="0" y1="10" x2="100%" y2="10" stroke="chocolate" stroke-width="5"/>
+      </svg>
+    </div>
+
+    <!-- heading for the product box description -->
+    <h1>BUT ALSO AS A<span style="color: rgb(43, 43, 190)"> 24x</span> BOX!</h1>
+
+    <!-- displaying Piazza box image -->
+    <div class="piazza-box">
+      <img src="images/piazza-box.jpg" alt="piazza-barquillo-box" height="400px" width="400px">
+    </div>
+
+    <!-- product name and description -->
+    <h2>Barquillo Piazza Jirafa Vainilla X 280,8g</h2>
+
+    <!-- start of the contact form section -->
+    <section class="contact-form-section">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, feel free to reach out to us.</p>
+
+      <!-- form that collects user information -->
+      <form action="#" method="POST" class="contact-form">
+        
+        <!-- input for the user's name -->
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Ex: Andres Castellanos" required/>
+        </div>
+
+        <!-- email input field -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <!-- phone number field -->
+        <div class="form-group">
+          <label for="tel">Phone Number (OPTIONAL)</label>
+          <input type="tel" id="tel" name="tel" />
+        </div>
+
+        <!-- textarea for the user's message -->
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <!-- submit button -->
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </section>
+
+    <!-- start of the footer section -->
+    <footer class="footer">
+
+      <!-- Piazza logo -->
+      <div class="logo">
+        <img src="https://colombina.com/uploads/brands/1595821098PIAZZA.png" alt="Piazza-logo" height="200px" width="200px">
+      </div>
+
+      <!-- market colombina logo -->
+      <div class="middle">
+        <img src="images/Logo_Market_Colombina.svg" alt="Logo-Market-Colombina">
+      </div>
+
+      <!-- copyright information for the page -->
+      <div class="info">
+        <p>© 2024 Andres Castellanos</p>
+        <p>All Rights Reserved</p>
+        
+        <!-- email link for contact -->
+          <p><a href="#">andres0225@gmail.com</a></p> 
+      </div>
+    </footer>
+  </body>
+</html>

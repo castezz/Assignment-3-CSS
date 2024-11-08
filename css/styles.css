@@ -1,0 +1,277 @@
+/* body */
+body {
+  background-color: #fff8dc;
+}
+
+/* css for Colombina link */
+a {
+  transition: background-color 3s ease-out 100ms;
+}
+
+a:hover {
+  background-color: rgba(141, 219, 249, 0.536);
+  font-style: normal;
+}
+
+/* h1 */
+h1 {
+  color: black;
+  font-family: "Delius", serif;
+  font-kerning: normal;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  letter-spacing: 8px;
+  text-align: center;
+  text-shadow: 5px 4px white;
+}
+
+/* h2 */
+h2 {
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin-top: -40px;
+  text-align: center;
+  text-shadow: 5px 4px white;
+  margin-top: 45px;
+}
+
+/* h3 */
+h3 {
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 14.3px;
+  font-size: small;
+  margin-top: -40px;
+  text-align: center;
+}
+
+/* background image for banner section */
+.products__banner::before {
+  opacity: 1;
+}
+
+.products__banner {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  background: #121414;
+  position: relative;
+  min-height: 200px;
+  max-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 0.6181rem;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 0px;
+  margin-top: 50px;
+}
+
+/* content inside the banner */
+container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product__branch-img {
+  width: 160px;
+  height: 160px;
+  background-color: #fff;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 155px;
+}
+
+.product__brand-img {
+  object-fit: contain;
+  margin-top: -22px;
+}
+
+#product_image {
+  margin-top: 110px;
+  height: 220px;
+  width: 250px;
+  margin-left: 125%;
+}
+
+#product_image-2 {
+  margin-bottom: 86px;
+  height: 220px;
+  width: 250px;
+  margin-left: 135%;
+}
+
+img {
+  max-width: 100%;
+}
+img {
+  border-style: none;
+}
+img {
+  border-style: none;
+}
+
+/* Piazza 24x box */
+.piazza-box {
+  width: 400px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.piazza-box:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* contact form */
+.contact-form-section {
+  background-color: #fff8dc;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form-section h2 {
+  font-family: "Delius", serif;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: brown;
+  text-shadow: 3px 3px white;
+}
+
+.contact-form-section p {
+  font-family: "Lexend Deca", serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #121414;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-form .form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-form label {
+  font-family: "Lexend Deca", serif;
+  font-size: 18px;
+  color: brown;
+  text-shadow: 5px 5px white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: brown;
+  outline: none;
+}
+
+.contact-form .submit-btn {
+  background-color: #121414;
+  color: white;
+  font-family: "Lexend Deca", serif;
+  font-size: 18px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+  background-color: rgb(43, 43, 190);
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: midnightblue;
+  color: white;
+  font-family: "Lexend Deca", serif;
+  box-shadow: 0 -2px 5px black;
+  margin-top: 50px;
+}
+
+.footer .logo img {
+  object-fit: contain;
+  box-shadow: 0 0px 8px rgb(255, 255, 255);
+  border-radius: 60px;
+}
+
+.footer .info {
+  text-align: right;
+  font-size: 20px;
+}
+
+.footer .info p {
+  margin: 0;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer .info p:hover {
+  opacity: 1;
+}
+
+.footer .info a {
+  color: #ddd;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer .info a:hover {
+  opacity: 1;
+}
+
+.footer .middle {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+}
